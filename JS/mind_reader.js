@@ -112,8 +112,8 @@ function change() {
 
     else if (state = 5) {
 
-        title.innerHTML = `<h3>Your Symbol is: <br> ${random9} <h3>`;
-        text.innerHTML = "<h4>See, i'm a Wizard.<br><br> Still apprehensive?<br><br>Click, Try Again<h4>";
+        title.innerHTML = `<br><h1>Your Symbol is: ${random9}<h1>`;
+        text.innerHTML = "<h4>See, i'm a Wizard.<br><br> Still apprehensive?<br><br>Click, Try Again!<h4>";
         button3.style.display="inline-block"
         button2.style.display="none"
 
