@@ -110,7 +110,7 @@ function change() {
         
     }
 
-    else if (state = 5) {
+    else if (state == 5) {
 
         title.innerHTML = `<br><h1>Your Symbol is: ${random9}<h1>`;
         text.innerHTML = "<h4>See, i'm a Wizard.<br><br> Still apprehensive?<br><br>Click, Try Again!<h4>";
